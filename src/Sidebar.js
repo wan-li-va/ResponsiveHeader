@@ -31,7 +31,7 @@ export default class Sidebar extends Component {
 
         return (
             <div className="Sidebar">
-                <Button size="sm" className="sidebarButton" onClick={this.handleClick}>Topics</Button>
+                <Button variant="secondary" size="sm" className="sidebarButton" onClick={this.handleClick}>Topics</Button>
                 {this.state.list}
             </div>
         )
